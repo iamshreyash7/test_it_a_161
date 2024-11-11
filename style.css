@@ -1,0 +1,44 @@
+#dashboard {
+    text-align: center;
+}
+
+.user-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+ul#userList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#userList li a {
+    color: blue;
+    text-decoration: none;
+}
+
+ul#userList li a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#logout-button {
+    background-color: #dc3545;
+}
+
+#logout-button:hover {
+    background-color: #c82333;
+}

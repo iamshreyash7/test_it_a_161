@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <style>
+    .container {
+      border: 2px solid;
+      border-radius: 5px;
+      margin: auto;
+      margin-top: 200px;
+      width: 400px;
+      height: 200px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, h2, button {
+      margin: 0px 10px 10px;
+    }
+    input {
+      width: 200px;
+      padding: 5px;
+      border-radius: 2px;
+      border: 1px solid;
+    }
+    button {
+      width: 80px;
+      padding: 5px;
+      background-color: rgb(111, 227, 111);
+      border: 1px solid green;
+    }
+    .content {
+      padding-left: 50px;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h2>Login</h2>
+      <form onsubmit="verifier(event)">
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
